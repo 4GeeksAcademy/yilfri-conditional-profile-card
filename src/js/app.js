@@ -45,25 +45,25 @@ function render(variables = {}) {
               ? "position-right"
               : "position-left"
           }">
-            <li><a href="${
+            <li><a href="https://twitter.com/${
               variables.twitter == null
-                ? "https://twitter.com/4geeksacademy"
-                : "https://twitter.com/" + variables.twitter
+                ? "4geeksacademy"
+                : variables.twitter
             }"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="${
+            <li><a href="https://github.com/${
               variables.github == null
-                ? "https://github.com/4geeksacademy"
-                : "https://github.com/" + variables.github
+                ? "4geeksacademy"
+                : variables.github
             }"><i class="fab fa-github"></i></a></li>
             <li><a href="${
               variables.linkedin == null
                 ? "https://linkedin.com/school/4geeksacademy"
                 : "https://linkedin.com/" + variables.github
             }"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="${
+            <li><a href="https://instagram.com/${
               variables.instagram == null
-                ? "https://instagram.com/4geeksacademy"
-                : "https://instagram.com/" + variables.instagram
+                ? "4geeksacademy"
+                : variables.instagram
             }"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
